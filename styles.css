@@ -39,6 +39,14 @@ img{
     border-radius: 20px;
 }
 
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+main > section{
+    margin-top: 130px;
+}
 
 
 
@@ -69,12 +77,6 @@ img{
     font-size: 1.25rem;
     font-weight: 500;
 }
-
-main > section{
-    max-width: 1440px;
-    margin: 100px auto;
-}
-
 
 
 /* banner section  */
@@ -126,7 +128,7 @@ main > section{
 
 /* team section  */
 
-.feature-title{
+.team-feature-title{
     font-size: 2.8rem;
 }
 
@@ -165,11 +167,5 @@ main > section{
         font-size: 2rem;
     }
 }
-
-
-.hide{
-    display: none;
-}
-
 
 
