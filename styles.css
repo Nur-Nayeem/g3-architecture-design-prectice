@@ -102,7 +102,8 @@ main > section{
 @media screen and (max-width:575.98px) {
     .navbar,
     .nav-list,
-    .team-section
+    .team-section,
+    .features-section
     {
         flex-direction: column;
     }
@@ -167,5 +168,80 @@ main > section{
         font-size: 2rem;
     }
 }
+
+
+/* features section  */
+.features-section{
+    gap: 140px;
+}
+
+
+.features-content{
+    max-width: 586px;
+}
+
+.features-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+
+
+
+.features-content p {
+    font-size: 1rem;
+    margin-top: 24px;
+    margin-bottom: 30px;
+}
+.feature-card{
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+}
+
+.feature-card  .card-title{
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.experience-btn{
+    padding: 40px 38px;
+    margin-top: -100px;
+    margin-left: -100px;
+}
+
+.experience-btn .first{
+    font-size: 4rem;
+}
+.experience-btn .second{
+    font-size: 1.5rem;
+}
+
+
+@media screen and (max-width: 575.98px) {
+    .features-section{
+        padding: 0 10px;
+        gap: 50px;
+    }
+    .experience-btn{
+        margin-left: 0;
+
+    }
+
+}
+
+
+
+
+
+
+
+.hide{
+    display: none;
+}
+
+
 
 
