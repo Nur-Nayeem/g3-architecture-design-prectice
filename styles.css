@@ -299,6 +299,49 @@ main > section{
 
 
 
+/* sponsor section  */
+.sponsore-section{
+    flex-direction: column;
+    align-items: center;
+}
+.sponsore-content h3{
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.sponsore-content{
+    max-width: 542px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.sponsore-imgs{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    gap: 150px;
+}
+
+.sponsore-imgs img{
+    filter: grayscale(100%);
+}
+
+
+@media screen and (max-width:575.98px) {
+    .sponsore-section{
+        margin-left:10px ;
+        margin-right: 10px;
+    }
+    .sponsore-imgs{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 50px;
+    }
+
+}
+
+
+
 
 .hide{
     display: none;
